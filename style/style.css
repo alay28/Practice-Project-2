@@ -283,6 +283,13 @@ nav ul {
             transform: translateY(-30%);
   }
 }
+@media screen and (max-width: 768px) {
+  .intro {
+    h2 {
+      color: black;
+    }
+  }
+}
 
 .projects {
   min-height: 90vh;
