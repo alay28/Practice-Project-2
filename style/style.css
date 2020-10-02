@@ -288,6 +288,7 @@ nav ul {
     h2 {
       color: black;
       background: none;
+      display: none;
     }
   }
 }
