@@ -322,7 +322,12 @@ nav ul {
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
 }
-
+@media screen and (max-width: 570px) {
+  .projects img {
+    margin: 1rem;
+    width: 90vw;
+  }
+}
 .form-section {
   min-height: 80vh;
   display: -webkit-box;
